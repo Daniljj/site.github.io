@@ -10,6 +10,8 @@
     <script>
         const themeParams = window.Telegram.WebApp.themeParams;
         document.body.style.backgroundColor = '#808080';
+        window.Telegram.WebApp.onEvent('close', function() {
+            console.log('Приложение закрыто');
     </script>
 </body>
 </html>
