@@ -9,7 +9,8 @@
     <button id="buy"> Купить курс</button>
     <script>
         const themeParams = window.Telegram.WebApp.themeParams;
-        document.body.style.backgroundColor = themeParams.bg_color;
+        document.body.style.backgroundColor = '#808080';
     </script>
 </body>
 </html>
+
