@@ -11,5 +11,9 @@
         <img src="https://fuzeservers.ru/mp-content/uploads/e/6/5/e6582e3f84d623bb4823f869c9a53c5d.png">
         <p> Учимся создавать telegram бота с нуля </p>
         <button id="buy"> Купить курс</button>
+    <script>
+        const themeParams = window.Telegram.WebApp.themeParams;
+        document.body.style.backgroundColor = themeParams.bg_color;
+    </script>
 </body>
 </html>
